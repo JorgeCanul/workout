@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Workout challenge</title>
+</head>
+ <body>
+     <header>
+         <div class="head-text">
+            <h1>Hey, <br> Lets Do this together</h1>
+            <!-- <a class="btn btn-full" target="_blanc" href="https://www.youtube.com/watch?v=-GhaJFcj3Mk">Workout</a> -->
+            <!-- <a class="btn btn-gost" target="_blanc" href="notes.html">&nbsp;&nbsp; notes &nbsp;&nbsp;</a> -->
+         </div>
+         <div class="head-survey">
+            <button  type="button" class="btn btn-lg btn-primary btn-full" data-toggle="modal" data-target="#modalPoll-1">Go to Workout</button>
+            <button type="button" class="btn btn-lg btn-gost" data-toggle="modal" data-target="#modalSocial">Coming soon</button>
+         </div>
+        
+          <!-- Modal: modalPoll -->
+          <div class="modal fade right" id="modalPoll-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-full-height modal-right modal-notify modal-info" role="document">
+              <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                  <p class="heading lead">  This is our workout
+                  </p>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="white-text">×</span>
+                  </button>
+                </div>
+        
+                <!--Body-->
+                <div class="modal-body">
+                    <input class="form-check-input checkBox" name="group1" type="radio" id="radio-329" value="option3">
+                  <div>
+                    <i class="far fa-file-alt fa-4x mb-3 animated rotateIn"></i>
+                    <p class="checkWork">
+                      <strong>Check Your Workout</strong>
+                    </p>
+                  </div>
+                  <hr>
+                  <!-- <a target="_blanc" href="https://www.youtube.com/watch?v=-GhaJFcj3Mk">Workout</a> -->
+                  <iframe width="460" height="315" src="https://www.youtube.com/embed/-GhaJFcj3Mk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- Modal: modalPoll -->
+
+          <!-- ///////////////////////////////////////////////////////////////////////////// -->
+        
+          <div class="modal fade" id="modalSocial" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog cascading-modal" role="document">
+        
+            <!--Content-->
+            <div class="modal-content">
+        
+              <!--Header-->
+              <div class="modal-header light-blue darken-3 white-text">
+                <h4 class="title"><i class="fas fa-users"></i> Quick survey!!!!!#</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+              </div>
+        
+              <!--Body-->
+              <div class="modal-body mb-0 text-center">
+                  <div class="survey-head text-center">
+                      <i class="fas fa-poll-h fa-3x blue-text mb-2"></i>
+                      <p class="font-weight-normal">Your opinion matters</p>
+                      <p>Have some ideas how to improve our product? <span class="font-weight-bold">Give us your feedback.</span>
+                      </p>
+                    </div>
+                    <hr>
+                    <p class="text-center">Your rating:</p>
+                    <div class="form-check mb-4 clearfix">
+                      <input class="form-check-input float-left" name="group1" type="radio" id="radio-139" value="option1" checked>
+                      <label class="form-check-label float-left" for="radio-139">Very good</label>
+                    </div>
+            
+                    <div class="form-check mb-4 clearfix">
+                      <input class="form-check-input float-left" name="group1" type="radio" id="radio-239" value="option2">
+                      <label class="form-check-label float-left" for="radio-239">Good</label>
+                    </div>
+            
+                    <div class="form-check mb-4 clearfix">
+                      <input class="form-check-input float-left" name="group1" type="radio" id="radio-339" value="option3">
+                      <label class="form-check-label float-left" for="radio-339">Mediocre</label>
+                    </div>
+                    <div class="form-check mb-4 clearfix">
+                      <input class="form-check-input float-left" name="group1" type="radio" id="radio-439" value="option4">
+                      <label class="form-check-label float-left" for="radio-439">Bad</label>
+                    </div>
+                    <div class="form-check mb-4 clearfix">
+                      <input class="form-check-input float-left" name="group1" type="radio" id="radio-539" value="option5">
+                      <label class="form-check-label float-left" for="radio-539">Very bad</label>
+                    </div>
+                    <!-- Radio -->
+                    <hr>
+                    <div class="survey-footer clearfix">
+                      <a type="button" class="btn btn-primary waves-effect waves-light float-left">Send
+                        <i class="fa fa-paper-plane ml-1"></i>
+                      </a>
+                      <a type="button" class="btn btn-outline-primary waves-effect float-right" data-dismiss="modal">Cancel</a>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </header>
+         
+     
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ </body>
+</html>

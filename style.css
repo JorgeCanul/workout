@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/head.jpg');
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.head-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    font-size: 2rem;
+}
+
+.head-survey {
+    position: relative;
+    top: 40%;
+    margin-left: 10%;
+}
+
+
+/* BUTTONS */
+.btn{
+    display: inline-block;
+    margin-right: 0.5rem;
+    font-weight: 100;
+}
+
+.btn-full {
+    background-color: #fa744f;
+    color: white;
+    border-radius: 15%;
+    border: 1px solid  #fa744f;
+    transition: all 1s;
+}
+
+.btn-full:hover {
+    background-color: whitesmoke;
+    border: 1px solid  whitesmoke;
+    color: #fa744f;
+}
+
+.btn-gost {
+    border-radius: 15%;
+    border: 1px solid  #fa744f;
+    color: #fa744f;
+    transition: all 1s;
+}
+
+.btn-gost:hover {
+    background-color: #fa744f;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn {
+      margin-top: 20%;
+    }
+  }
+
+  @media only screen and (max-width: 736px) {
+    .btn {
+      margin-top: 15%;
+    }
+  }
+
+.checkBox {
+    margin-left: 0;
+}
+
+.checkWork {
+    margin-left: 1rem;
+}
+
+  /* .modal-header {
+      text-align: center;
+      margin: 0 auto;
+  }
+
+  .closed {
+      margin-left: 30rem;
+  } */
