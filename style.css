@@ -94,3 +94,10 @@ header {
   .closed {
       margin-left: 30rem;
   } */
+
+  @media (max-width: 750px) {
+    .head-survey {
+        top: 55%;
+        margin-left: 6%;
+    }
+  }
